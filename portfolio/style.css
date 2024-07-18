@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:  black;
+}
+.navbar{
+    height:2rem;
+   opacity:1;
+}
+ .skills-image{
+   
+     top:3rem;
+    left:2rem;
+    height: auto;
+    margin:3%;
+        max-width: 40%; 
+ }
+.pf{
+    position: absolute;
+    top:-2rem;
+    left:7rem;
+    height: auto;
+    margin:3%;
+    max-width: 10%;
+}
+.pf:hover{
+    transform: scale(1.3);
+}
+.navbar ul{
+    /* display: inline-block; */
+    /* margin:3%; */
+    position: relative;
+    margin-left: 30rem;
+      font-size: larger;
+      top:2rem;
+    color:blue;
+}
+.navbar ul li{
+    font-size: 30px;
+    display: inline-block;
+       padding: 30px 52px;
+
+}
+.navbar ul li:hover{
+    transform: scale(1.3);
+}
+.navbar ul li a:hover{
+    background-color: orange;
+}
+.skills-image{
+    position: absolute;
+    top: 3rem;
+    left:-50rem;
+    height: auto;
+    margin-top:4rem;
+    margin-left: 25%;
+    max-width: 28rem;
+}
+.skills-image:hover{
+    transform: scale(1.3);
+}
+.skills{
+    /* display: inline-block; */
+    font-size: x-large;
+    color:orange;
+    position: relative;
+    top: 8rem;
+    left: 4%;
+    margin-top:4%;
+    margin-left: 50%;
+    /* padding: 10%; */
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.skill-head{
+    font-size: xxx-large;
+    color:rgb(246, 255, 0);
+    display: block;
+    /* color:aliceblue; */
+   /* margin-top: 2rem; */
+    margin: -1rem;
+    margin-left: -37rem;
+    /* margin-bottom: 3rem; */
+    height:10%;
+}
+.tags{
+    
+    font-size: x-large;
+    margin: 4%;
+    margin-left: 15%;
+    position: relative;
+    top: 7rem;
+    letter-spacing: 1px;
+    color:orange;
+    line-height: 1.5;
+    }
+.resume h3{
+    font-size:xx-large;
+}
+.resume {
+    text-align: center;
+    color:orange;
+    font-weight: 800;
+   margin-top: 9rem;
+
+}
+.projects{
+    font-size: x-large;
+    color: orange;
+    margin: 5%;
+    margin-top: 13rem;
+    margin-left: 50%;
+    /* padding: 10%; */
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-weight: 800;
+    position: relative; 
+    display: inline-block;
+
+}
+.lis{
+    top:3rem;
+    margin: 3%;
+}
+.projects-image{
+    position: absolute;
+    top:7rem;
+    left:-32rem;
+    margin-left: 1%;
+    height: auto;
+    margin:-2rem;
+    max-width: 28rem;
+}
+.projects-head{
+    font-size: xxx-large;
+    color:rgb(246, 255, 0);
+    display: block;
+    /* color:aliceblue; */
+   /* margin-top: 2rem; */
+   margin-top:-2rem;
+    margin: -2.5rem;
+    margin-left: -34rem;
+    /* margin-bottom: 3rem; */
+    height:10%;
+
+}
+.projects-image:hover{
+    transform: scale(1.3);
+}
+ .contact{
+    margin: 10Srem;
+    margin-left:5%;
+    /* padding: 10%; */
+    position: absolute; 
+    font-size: large;
+    color: orange;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    font-weight: 800;
+    }
+
+button{
+    height: 2rem;
+    color: black;
+    background-color: orange;
+    font-size: 18px;
+    border-top: grey;
+    /* position: absolute; */
+    top:10rem; 
+     left: 45rem;
+    border-radius: 5rem;
+    width:10rem;
+    /* padding: 5rem; */
+    margin-top: 2%;
+    /* margin-left: 1%; */
+    }
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.3);
+    }
